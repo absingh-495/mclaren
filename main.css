@@ -50,3 +50,23 @@
   filter: invert(1);
  }
 
+ header .year{
+  font-family: 'racing Sans one', cursive;
+  font-size: 1em;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-weight: 800px;
+  margin-top: 40px;
+ }
+
+ header .menu{
+  position: relative;
+  height: 30px;
+  width: 30px;
+  background:  url('menu-3-fill.png');
+  background-position: center;
+  filter: invert(1);
+  cursor: pointer;
+ }
+ 
+
