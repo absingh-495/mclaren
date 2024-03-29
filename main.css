@@ -79,5 +79,24 @@
   filter: invert(1);
   cursor: pointer;
  }
+
+ /* navigation */
+
+ .nav{
+  z-index: 200;
+  position:  absolute;
+  right: 100px;
+  top:0 ;
+  width: 30%;
+  height: 5px;
+  border-bottom: 5px solid;
+  border-image: linear-gradient(
+  90deg, 
+  transparent,
+  var(--primary),
+  var(--primary)
+  );
+ }
+
  
 
