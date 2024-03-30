@@ -21,3 +21,22 @@ bgvideolist.forEach(video =>{
   }
 });
 }
+
+// let menuBtn = document.querySelector(".menu");
+let navBar = document.querySelector(".nav");
+let image = document.querySelector(".menu img");
+
+image.addEventListener("click", ()=>{
+  if(image.src.includes("/menu-3-fill.png")){
+    image.src = "./close-line.png";
+    navBar.classList.add("active");
+  }
+  else{
+    image.src = "./menu-3-fill.png";
+    navBar.classList.remove("active");
+  }
+
+  console.log(image.src);
+})
+
+
