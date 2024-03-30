@@ -264,6 +264,7 @@
   background:  transparent;
   border-bottom: 3px solid;
   border-image: linear-gradient(
+  
     90deg,
     transparent,
     var(--primary),
