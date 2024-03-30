@@ -6,6 +6,7 @@ function toggleMenu(){
   nav.classList.toggle('active');
 }
 
+
 //change the background video when click on the gallery images
 function changevideo(name){
   const bgvideolist = document.querySelectorAll('.bg-video');
