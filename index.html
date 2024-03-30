@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" href="main.css">
   <title>mclrean</title>
 </head>
@@ -75,7 +76,18 @@
     <div>
       <span style="--i:0">
       <!-- insert the screen video -->
+      <!-- video data mapping -->
+      <!-- match the video name with the class name -->
+
       <video class="trailer mclaren-1 screen-video  active" src="videos/mclaren-1.mp4"autoplay loop muted></video>
+      
+      <video class="trailer mclaren-2 screen-video" src="videos/mclaren-2.mp4"autoplay loop muted></video>
+      
+      <video class="trailer mclaren-3 screen-video" src="videos/mclaren-3.mp4"autoplay loop muted></video>
+ 
+      <video class="trailer mclaren-4 screen-video" src="videos/mclaren-4.mp4"autoplay loop muted></video>
+     
+      <video class="trailer mclaren-5 screen-video" src="videos/mclaren-5.mp4"autoplay loop muted></video>
     </span>
       
       <span style="--i:1">
@@ -90,8 +102,42 @@
     </div>
  
   </div>
+  <div class="gallery">
+    
+  <div class="carousel">
+    <a class="carousel-item" href="# ">
+      <img src="cars/mclaren-1.jpg" alt="">
+       </a>
+    <a class="carousel-item" href="# ">
+      <img src="cars/mclaren-2.jpg" alt="">
+       </a>
+    <a class="carousel-item" href="#">
+      <img src="cars/mclaren-3.jpeg" alt="">
+       </a>
+    <a class="carousel-item" href="#"> 
+      <img src="cars/mclaren-4.jpeg" alt="">
+
+    </a>
+    <a class="carousel-item" href="#"> 
+      <img src="cars/mclaren-5.jpeg" alt="">
+
+    </a>
+  </div>
+    </div>
   
 </div>
+<script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
   <script src="script.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+  </script>
+
 </body>
 </html>
