@@ -387,3 +387,74 @@
   justify-content: center;
   align-items: center;
 }
+
+.banner .gallery::before{
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 10px;
+  width: 100%;
+  background:  var(--primary);
+  filter: blur(15px);
+}
+
+.banner .gallery .carousel{
+  width: 100%;
+  height: 100%;
+}
+
+.carousel .carousel-item{
+  width: 250px;
+  cursor: pointer;
+}
+
+.carousel .carousel-item img{
+  border-radius:10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* personal change
+.gallery{
+  top: 80vh;
+  margin-left: -9vh;
+}
+ */
+
+.carousel .carousel-item h4{
+  text-align: center;
+  color: var(--primary);
+  font-size: 1.3em;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+/* social icons */
+
+.sci{
+  position: absolute;
+  top: 50%;
+  right: 100px;
+  transform:translateY(-50%) ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.sci li{
+  list-style: none;
+}
+
+.sci li a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2em;
+  transition:0.3s ;
+}
+
+.sci li a:hover{
+  color: var(--primary);
+}
